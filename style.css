@@ -16,9 +16,7 @@ html {
   scroll-padding-top: 6rem;
 }
 
-
-
-.menu {
+.navigation-menu a {
   color: white;
   margin: 0 .8rem;
   font-size: 2rem;
@@ -33,11 +31,11 @@ header {
   position: fixed;
   top: 0; left: 0; right: 0;
   background: #333;
-  display: flex;
   z-index: 1000;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 9%;
+  padding: 2rem 5%;
 }
 
 header .logo {
@@ -49,4 +47,11 @@ header .logo {
 
 header .logo span {
   color: green;
+}
+
+header .nav-icon span {
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+  margin-right: 2rem;
 }
