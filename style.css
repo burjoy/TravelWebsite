@@ -1,0 +1,52 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  outline: none; border: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+}
+
+
+
+.menu {
+  color: white;
+  margin: 0 .8rem;
+  font-size: 2rem;
+}
+
+.menu:hover {
+  color: green;
+}
+
+
+header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: #333;
+  display: flex;
+  z-index: 1000;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+}
+
+header .logo span {
+  color: green;
+}
